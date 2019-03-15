@@ -10,6 +10,7 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <title>@yield('title', '欢迎回家~') - 章氏大家族</title>
+  <meta name="description" content="@yield('description', '章氏大家族')" />
 
   <!-- Styles -->
   <link href="{{ mix('css/app.css') }}" rel="stylesheet">
